@@ -1,0 +1,5 @@
+- from_date: "2023"
+  to_date: "2026"
+  company: "ACME Inc"
+  main_responsibilities: |
+    Building very big, huge machines

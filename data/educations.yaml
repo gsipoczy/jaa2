@@ -1,0 +1,10 @@
+- institute: "Faultier University"
+  city: London
+  country: UK
+  field: Sleeping 
+  specializations: 
+    - specialization: "Bed testing"
+    - specialization: "Whole Day Lazyness"
+  degree: "Master of Nothing"
+  from_date: "1986"
+  to_date: "1991"

@@ -1,0 +1,39 @@
+data_dir: data
+models: models
+max_models: 5
+prompts: prompts
+personal_info: personal_info
+projects: projects
+skills: skills
+achievements: achievements
+certificates: certificates
+educations: educations
+languages: languages
+other_info: other_info
+templates_dir: templates
+cv_template: cv_template.fodt
+cover_letter_template: cover_letter_template.fodt
+output_dir: output
+log_mode: log_print
+log_level: 1
+max_cv_loops: 3
+max_cover_letter_loops: 3
+labels:
+  - label: professional_summary_head
+    text: PROFESSIONAL SUMMARY
+  - label: key_achievements_head
+    text: KEY ACHIEVEMENTS
+  - label: skills_head
+    text: SKILLS
+  - label: certificates_head
+    text: CERTIFICATES
+  - label: experience_head
+    text: WORK EXPERIENCE
+  - label: educations_head
+    text: EDUCATION
+  - label: languages_head
+    text: LANGUAGES
+  - label: cover_letter_head
+    text: COVER LETTER
+  - label: curriculum_vitae
+    text: CURRICULUM VITAE

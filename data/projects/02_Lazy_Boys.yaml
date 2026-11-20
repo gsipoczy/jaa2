@@ -1,0 +1,19 @@
+- from_date: "1900"
+  to_date: "2023"
+  company: "Lazy Boys"
+  main_responsibilities: |
+    Did not do anything.
+  projects:
+    - from_date: "1900"
+      to_date: "2001"
+      company: "Our Best Client"
+      main_responsibilities: |
+        Complete design, documentation and development of the most boring, meaningless implementation in the World.
+    - from_date: "2001"
+      to_date: "2023"
+      company: "Our Worst client"
+      main_responsibilities: |
+        Unfortunately here they forced me to work.
+        I made coffee.
+        I gave water to the plants.
+        Worst project ever.

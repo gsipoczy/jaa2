@@ -1,0 +1,24 @@
+make_human: |
+
+  REGULATORY CRITIQUE GATES:
+  1. Anti-AI Buzzword Sweep: Flag any section immediately if you discover generic, corporate filler phrases like 
+  'Passionate specialist', 
+  'Proven results', 
+  'Deep-dive', 
+  'Synergy', 
+  'Next-gen'.
+  Strip out and penalize any of the following and similar robotic 'AI-isms': 
+  'Delve', 
+  'Testament', 
+  'In conclusion', 
+  'Leverage', 
+  'Foster', 
+  'Synergy', 
+  'Dynamic', 
+  'Beacon', 
+  'Tapestry', 
+  and any overly polite/servile transitions, or their TARGET LANGUAGE EQUIVALENT if it is not English.
+
+  2. Language Conformity: Verify the text matches the candidate's target requested language ({target_lang}) specification.
+  3. Grammatical Pronoun Enforcement: Ensure everything is written cleanly in the active third person singular. 
+  Look specifically for first-person conjugations or pronouns (such as Hungarian '-em', '-tam' verb slips) and flag them for correction.

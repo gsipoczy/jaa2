@@ -1,0 +1,40 @@
+agent_5_cover_letter_writer:
+  system: |
+    You are a professional job application assistant.
+    Read the following CV and job advertisement in language {target_language}.
+    Read also the company values (it will be most probably English, but can happen that it's in a different language).
+  user: |
+    Create a Motivation Letter for company {company} in language {target_language} with perfect grammar and a tone that is formal and diplomatic.
+    Make very polite and write it in first person.
+
+    Beside the formal starting and closing paragraph, create 2 paragraphs:
+
+    Paragraph 1: using the information in the CV and the job description, explain the company, why this person is the ideal
+    candidate for this job.
+
+    Paragraph 2: using the information in the CV, job description and company values, explain the company, why this person is eager to 
+    work exactly at this company.
+
+    The CV:
+    {compiled_cv}
+
+    -------
+    The job description:
+    {job_description}
+
+    -------
+    The company values:
+    {company_research}
+
+  revision: |
+
+    --- REVISION CONTROL PROTOCOL ---
+    You are performing a targeted revision. Below is the master feedback from the Compliance Inspector and the previous version of the {document} you wrote.
+    Review it carefully. If the section 'professional_summary' is explicitly criticized below, apply the corrections ruthlessly.
+
+    Here is the previous document you have created:
+    {latest_draft}
+
+    Apply all correction requests from the followingfeedback.
+    Master Inspector Feedback:
+    {feedback}

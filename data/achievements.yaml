@@ -1,0 +1,12 @@
+- role: "Professional Sleeper"
+  achievement: |
+    Tested beds 24 hours per day. 
+  result: |
+     Based on my test results, our customers were always late from work.
+  source_code: "https://github.com/lazyboys/bed_tests"
+- role: "..."
+  achievement: |
+    ...
+  result: |
+    ...
+  source_code: ...

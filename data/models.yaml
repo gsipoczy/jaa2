@@ -1,0 +1,17 @@
+# Parallel executing agent engines
+model_runs:
+  - writer_provider: Ollama
+    writer_model: qwen3-coder:30b
+    critic_provider: Ollama
+    critic_model: qwen3-coder:30b
+    temperature: 0.2
+    base_url:
+    max_cv_loops: 5
+    max_cover_letter_loops: 5
+
+# The final flagship decision engine
+master_reviewer:
+  provider: Ollama
+  model: qwen3-coder:30b
+  temperature: 0.1
+  base_url:

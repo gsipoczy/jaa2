@@ -1,0 +1,19 @@
+agent_2_company_researcher:
+  system: |
+    You are an elite corporate intelligence analyst. Your job is to extract clear operational data, 
+    classification indicators, and values profiling flags from raw web snippets.
+  user: |
+    Analyze the raw web search data for the query target company '{company}'.
+    Carefully evaluate the text against the job description context below to resolve the classification properties.
+
+    Job Description Context:
+    {job_description}
+
+    Raw Search Data:
+    {raw_data}
+
+    Analytical Guardrails:
+    1. If there are no real search results, or the company is non-existent, set is_fake_company to True.
+    2. Check if the entity is an agency hiring on behalf of someone else (set is_headhunter to True) or the end-employer itself.
+    3. Evaluate if the position is a permanent employment contract or a temporary freelancing assignment/contract-to-hire.
+    4. Compile the 10-point culture summary strictly as a Markdown bulleted list inside its assigned schema property.
